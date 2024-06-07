@@ -1,0 +1,271 @@
+/*Base*/ 
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);  
+    text-align: center; 
+}
+h1, h2,h3,h4,h5{
+    color: #000000;
+line-height: 1
+}
+
+.list-unstyled{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.grid-item{
+    width: 50%;
+}
+img{
+    max-height: 100;
+    height: auto;
+}
+/*conteneur*/ 
+.container3{
+    position: relative;
+    display: flex;
+}
+
+.profilapropo{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    width: 250px;
+}
+.section-title1{
+    font-size: 50px;
+}
+.items{
+    border: 2px solid #9e9b9b; 
+    padding: 10px;            
+    background-color: #ffffcc; 
+    color: #333333;            
+    border-radius: 5px;     
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    width: 900px;
+    position: relative;    
+}
+
+section{
+    padding: 3rem 0;
+}
+
+.section-title{
+    font-size: 3.8rem;
+}
+
+.header{
+    background-color: rgb(248, 248, 248);
+    border-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(197, 197, 197);
+}
+.header a:hover{
+    color: rgb(114, 17, 33);
+}
+.navbarre{ position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social{
+    display: flex;
+}
+
+.header li{
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+}
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(114, 17, 33);
+    color: #fdfbfb;
+}
+.hero_item span{
+    text-transform: uppercase;
+}
+.hero .Titre1{
+    color: inherit;
+    font-size: 5rem;
+    margin: 1rem 0 0;
+}
+fieldset{
+    position: relative;
+    bottom: 35px;
+    margin-left: 5px;
+    width:700px;
+    height: 400px;
+    background-color: #ffffff;
+    color: black;
+    padding: 40px;
+    border-radius: 19px;
+}
+
+.hero_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroprofil img{
+    width: 200px;
+    border-radius: 100%;
+}
+
+.about .section-title {
+    margin-top: 2.8rem ;
+}
+.form{
+
+}
+.form input, form textarea{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.footer{
+    background-color: #d19e10;
+    color: #fdfbfb;
+    width: 100;
+}
+
+.social2{position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo3{
+    color: #fdfbfb;
+    padding-left: 20px;
+    
+}
+.lOgo2{
+    width: 100PX;
+}
+.footer .social{
+    position: relative;
+}
+.iconefacebook{
+    width: 20px;
+}
+.iconelinkdin{
+    width: 20px;
+}
+.iconetwetter{
+width: 20px;
+}
+.iconeinstagram{
+    width: 20px;
+    }
+    .Logo1{
+        width: 100px;
+    }
+    
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+      .competence {
+        background-color: #fff;
+        border-radius: 8px;
+        margin: 10px 0;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+      .competence h3 {
+        margin: 0;
+        padding: 10px;
+        background-color: rgb(241, 81, 86);
+        color: #000000;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .competence ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+      }
+      .competence ul li {
+        padding: 8px;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #ddd;
+      }
+      .competence ul li:last-child {
+        border-bottom: none;
+      }
+      .competence:hover ul {
+        display: block;
+      }
+    
+
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+      .projet {
+        background-color: #fff;
+        border-radius: 8px;
+        margin: 10px 0;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+      .projet h3 {
+        margin: 0;
+        padding: 10px;
+        background-color: #007BFF;
+        color: #fff;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .projet ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+      }
+      .projet ul li {
+        padding: 8px;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #ddd;
+      }
+      .projet ul li:last-child {
+        border-bottom: none;
+      }
+      .projet:hover ul {
+        display: block;
+      }
